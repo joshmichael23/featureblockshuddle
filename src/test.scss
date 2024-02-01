@@ -200,6 +200,9 @@ header{
             span{
                 font-size: inherit;
                 display: block;
+                @media (min-width:1200px) {
+                    display: inline;
+                }
             }
 
             @media (min-width:1200px) {
