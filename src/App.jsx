@@ -33,7 +33,7 @@ function App() {
   Think of the insightful conversations you miss out on with a feedback form. </p>
         </section>
 
-        <section>
+        <section className='alternate'>
           <img src="/illustration-flowing-conversation.svg" alt="" />
           <h2>Flowing Conversations</h2>
           <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
