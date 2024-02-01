@@ -79,7 +79,7 @@ header{
 
     @media (min-width: 1200px) {
         background-image: url('bg-hero-desktop.svg');
-        padding: 25px 80px;
+        padding: 25px 80px 80px 80px;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         row-gap: 40px;
         justify-items: start;
@@ -95,6 +95,7 @@ header{
         font-family: "Poppins";
         text-align: center;
         padding-top: 58px;
+        color: $VeryDarkCyan;
         font-size:1.5rem;
 
         @media (min-width: 1200px) {
@@ -174,12 +175,14 @@ header{
         }
         
         h2{
+            color: $VeryDarkCyan;
             font-family: "Poppins";
             font-size: 1.25rem;
             font-weight: 700;
 
             @media (min-width:1200px) {
                 grid-column: 1/2;
+                font-size: 1.5rem;
                 grid-row: 1/2;
                 align-self: end;
                 justify-self: start;
